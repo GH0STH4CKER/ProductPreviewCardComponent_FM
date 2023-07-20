@@ -29,7 +29,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Opera Snapshot_2023-07-20_164317_gh0sth4cker github io](https://github.com/GH0STH4CKER/ProductPreviewCardComponent_FM/assets/62290930/6e8ff9ea-b668-4099-b53e-17cd91a99145)
+
 
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
@@ -41,8 +42,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [https://gh0sth4cker.github.io/ProductPreviewCardComponent_FM/](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution URL](https://your-solution-url.com)
+- Live Site URL: [Live URL](https://gh0sth4cker.github.io/ProductPreviewCardComponent_FM/)
 
 ## My process
 
