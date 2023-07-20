@@ -42,7 +42,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Solution URL](https://your-solution-url.com)
+- Solution URL: [Solution URL](https://github.com/GH0STH4CKER/ProductPreviewCardComponent_FM/)
 - Live Site URL: [Live URL](https://gh0sth4cker.github.io/ProductPreviewCardComponent_FM/)
 
 ## My process
