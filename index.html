@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Product preview card component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -10,7 +11,7 @@
     @import url('https://fonts.googleapis.com/css2?family=Montserrat:display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&display=swap');
 
-    * { font-family: 'Montserrat', sans-serif;font-size: 18px; }
+    * { font-family: 'Montserrat', sans-serif; }
 
     body {
       background-color: hsl(30, 38%, 92%);
@@ -23,25 +24,28 @@
     }
 
     main {
-      width: 650px; /* Fixed width */
-      height: 80vh;
+      width: 600px; /* Fixed width */
+      height: 80%; /* Fixed height */
+      max-height: 800px; /* Optional maximum height for larger screens */
       background-color: white;
       margin: auto;
       display: flex;
       text-align: center;
-      border-radius: 16px; /* Fixed radius */
+      border-radius: 2%; /* Fixed radius */
     }
 
     button {
       background-color: hsl(158, 36%, 37%);
-      width: 250px; /* Fixed width */
+      width: 120px; /* Fixed width */
       height: 48px; /* Fixed height */
+      min-width: 20vw; /* Optional minimum width for smaller screens */
+      min-height: 8vh; /* Optional minimum height for smaller screens */
       color: white;
       font-size: 18px;
       border: none;
-      border-radius: 12px;
+      border-radius: 15px;
       cursor: pointer;
-      margin-top: 32px; /* Fixed margin-top */
+      margin-top: 4%; /* Fixed margin-top */
       vertical-align: middle;
     }
 
@@ -50,22 +54,22 @@
     }
 
     .placetxt {
-      padding: 64px 32px; /* Fixed padding */
+      padding: 5% 2%; /* Fixed padding */
     }
 
     .prod_nm {
       text-align: left;
-      font-size: 32px;
+      font-size: 44px; /* Fixed font-size */
       font-family: 'Fraunces', sans-serif;
-      margin-top: 32px; /* Fixed margin-top */
+      margin-top: 2%; /* Fixed margin-top */
     }
 
     .toptag {
       text-align: left;
-      letter-spacing: 3px;
-      font-size: 18px;
+      letter-spacing: 0.2em; /* Fixed letter-spacing */
+      font-size: 18px; /* Fixed font-size */
       color: hsl(228, 12%, 48%);
-      margin-top: -32px; /* Fixed margin-top */
+      margin-top: -2%; /* Fixed margin-top */
     }
 
     .price p, .price s {
@@ -75,7 +79,7 @@
     }
 
     .price p {
-      margin-left: -50px; /* Fixed margin-left */
+      margin-left: -6%; /* Fixed margin-left */
     }
 
     .attribution {
@@ -86,12 +90,17 @@
     .attribution a {
       color: hsl(228, 45%, 44%);
     }
+
+    .placeimg img {
+      height: 100%; /* Set the height to 100% of the parent container (fixed height) */
+      border-radius: 2%; /* Fixed radius */
+    }
   </style>
 </head>
 <body>
   <main>
     <div class="placeimg" style="text-align: left;">
-      <img src="images/image-product-desktop.jpg" alt="product image" height="100%" style="border-radius: 16px;">
+      <img src="images/image-product-desktop.jpg" alt="product image" style="height:100%;">
     </div>
     <div class="placetxt">
       <p class="toptag">PERFUME</p>
